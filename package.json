@@ -1,0 +1,32 @@
+{
+  "name": "wwwid",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Progressive web app for WWWID Challenge",
+  "main": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir build --public-url ./"
+  },
+  "keywords": [
+    "pwa",
+    "wwwid",
+    "react",
+    "parcel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ruliarmando/wwwid.git"
+  },
+  "author": "Rully Ramanda <krooco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.1",
+    "parcel-bundler": "^1.6.2"
+  }
+}
